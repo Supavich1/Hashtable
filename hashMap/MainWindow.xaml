@@ -1,0 +1,17 @@
+﻿<Window x:Class="hashMap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hashMap"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Add" HorizontalAlignment="Left" Height="51" Margin="60,232,0,0" VerticalAlignment="Top" Width="149" Click="Add"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Height="51" Margin="253,232,0,0" VerticalAlignment="Top" Width="147" Click="Remove"/>
+        <Button Content="Showall" HorizontalAlignment="Left" Height="51" Margin="450,232,0,0" VerticalAlignment="Top" Width="151" Click="Showall"/>
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Height="43" Margin="60,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="541"/>
+        <TextBox x:Name="txtKey" HorizontalAlignment="Left" Height="41" Margin="60,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="541"/>
+
+    </Grid>
+</Window>
